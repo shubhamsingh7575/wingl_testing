@@ -206,20 +206,6 @@ The suite was executed across Chromium, Firefox, and WebKit.
 
 ---
 
-## Optional AI Validation
-
-An optional AI-based validation can classify dream names as **Good** or **Bad** and compare the AI classification with the Dream Diary's existing classification.
-
-Example:
-
-```text
-Monster chase → Bad
-```
-
-This feature is optional and can be added as an enhancement to the core automation suite.
-
----
-
 ## Conclusion
 
 The Dream Portal QA automation suite validates the core functional requirements of the application using Playwright and TypeScript.
