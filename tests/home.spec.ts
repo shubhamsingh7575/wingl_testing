@@ -57,7 +57,6 @@ test.describe('Dream Portal Home Page', () => {
         expect(
             urls.some(url => url.includes('dreams-total.html'))
         ).toBeTruthy();
-
         // Screenshot of home after click
         await page.screenshot({
             path: 'screenshots/my-dreams-click.png',
